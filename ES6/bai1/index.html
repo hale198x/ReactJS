@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const team = [
+            {member: 'Jonh', km: 3},
+            {member: 'Jan', km: 4},
+            {member: 'David', km: 5},
+            {member: 'Peter', km: 2},
+        ]
+        let ketquaCong = 0;
+        for(const {km} of team) {
+            ketquaCong += km;
+        }
+        console.log(`Tong so km đã đi: ${ketquaCong}`)
+    </script>
+</body>
+</html>
